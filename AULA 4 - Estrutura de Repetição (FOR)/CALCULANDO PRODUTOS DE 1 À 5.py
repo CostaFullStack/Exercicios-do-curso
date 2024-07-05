@@ -1,3 +1,4 @@
+# Utilize um loop for para calcular o produto dos números de 1 a 5.
 
 soma = 0
 

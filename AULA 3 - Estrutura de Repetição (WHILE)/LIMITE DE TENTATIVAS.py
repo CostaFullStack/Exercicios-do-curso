@@ -3,6 +3,7 @@
 # Com break
 numero_aleatorio = 72
 tentativas = 5
+
 print(f"Tente acertar o número aleatório entre 1 e 100! Você possui {tentativas} tentativas!")
 
 while True:
@@ -25,7 +26,9 @@ while True:
 # Sem break
 numero_aleatorio = 72
 tentativas = 3
+
 print(f"Tente acertar o número aleatório entre 1 e 100! Você possui {tentativas} tentativas!")
+
 numero_tentado = int(input("Digite um número aleatório: "))
 
 while numero_aleatorio != numero_tentado and tentativas > 1:

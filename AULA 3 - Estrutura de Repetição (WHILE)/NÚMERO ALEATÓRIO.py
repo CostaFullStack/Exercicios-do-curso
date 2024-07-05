@@ -2,7 +2,9 @@
 
 # Sem break
 numero_aleatorio = 15
+
 print("Tente acertar o número aleatório entre 1 e 20!")
+
 numero_tentado = int(input("Digite um número aleatório: "))
 
 while numero_aleatorio != numero_tentado:
