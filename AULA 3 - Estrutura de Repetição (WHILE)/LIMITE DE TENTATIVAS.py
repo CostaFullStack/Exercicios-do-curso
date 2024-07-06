@@ -1,6 +1,6 @@
 # Crie um programa que solicite ao usuário adivinhar um número entre 1 e 100, dando dicas se a tentativa é muito alta, muito baixa ou correta. Adicione um limite de tentativas.
 
-# Com break
+# com break
 numero_aleatorio = 72
 tentativas = 5
 
@@ -23,7 +23,7 @@ while True:
         print(f"Você acertou o número! Número sorteado: {numero_aleatorio}")
         break
 
-# Sem break
+# sem break
 numero_aleatorio = 72
 tentativas = 3
 

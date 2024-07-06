@@ -5,4 +5,5 @@ idade = int(input("Digite sua idade: "))
 altura = float(input("Digite sua altura: "))
 cpf = str(input("Digite o seu CPF: "))
 nome = str(input("Digite seu nome: "))
+
 print(f"Bem vindo, {nome}, seus dados foram cadastrados com sucesso. Idade = {idade}, altura = {altura}, cpf = {cpf}")

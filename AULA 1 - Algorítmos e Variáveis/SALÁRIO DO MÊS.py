@@ -3,4 +3,5 @@
 ganho_hora = float(input("Digite quando você ganha por hora: "))
 horas_mes = float(input("Digite a quantidade de horas trabalhadas no mês: "))
 salario = ganho_hora * horas_mes
+
 print(f"O salário total do referido mês é de: R${salario}")

@@ -1,10 +1,9 @@
 # Implemente um jogo em que o usuário tenta adivinhar um número aleatório entre 1 e 20, dando dicas se a tentativa é muito alta ou muito baixa.
 
-# Sem break
+# sem break
 numero_aleatorio = 15
 
 print("Tente acertar o número aleatório entre 1 e 20!")
-
 numero_tentado = int(input("Digite um número aleatório: "))
 
 while numero_aleatorio != numero_tentado:
@@ -18,7 +17,7 @@ while numero_aleatorio != numero_tentado:
 else:
     print(f"Você acertou o número! Número sorteado: {numero_aleatorio}")
 
-# Com break
+# com break
 numero_aleatorio = 12
 print("Tente acertar o número aleatório entre 1 e 20!")
 
