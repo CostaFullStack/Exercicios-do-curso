@@ -11,7 +11,7 @@
 # Sindicato (5%) : R$
 # Salário Liquido : R$
 
-ganho_hora = float(input("Digite quando você ganha por hora: "))
+ganho_hora = float(input("Digite quanto você ganha por hora: "))
 horas_mes = float(input("Digite a quantidade de horas trabalhadas no mês: "))
 
 # Salário bruto
