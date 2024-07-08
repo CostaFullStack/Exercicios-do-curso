@@ -2,7 +2,7 @@
 
 # com for
 numero = int(input("Digite um número inteiro positivo: "))
-print(f"Número {numero} em ordem crescente até 1:")
+print(f"Ordem crescente dos ímpares do número {numero} começando por 1:")
 
 for i in range(numero):
     if i % 2 != 0:
@@ -10,11 +10,19 @@ for i in range(numero):
         print(i)
 
 # com while
-numero = int(input("Digite um número inteiro positivo: "))
-print(f"Número {numero} em ordem crescente até 1:")
+contagem = 0
+vezes = 0
 
-while numero >= 0:
-    print(numero)
-    numero += 1
+numero = int(input("Digite um número inteiro positivo: "))
+print(f"Ordem crescente dos ímpares do número {numero} começando por 1:")
+
+while contagem < numero:
+    vezes += 1
+    if contagem % 2 != 0:
+        print(contagem)
+    contagem += 1
+    
+    
+
 
     

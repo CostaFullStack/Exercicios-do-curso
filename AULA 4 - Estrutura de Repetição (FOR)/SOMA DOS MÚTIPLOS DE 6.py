@@ -11,3 +11,5 @@ for num in range(1,11):
         if soma >= limite:      
             print(f"Ultrapassou ou atingtiu o limite de {limite}! Soma total: {soma}")
             break
+else:
+    print("Não tiveram números com múltiplos de 6 digitados!")

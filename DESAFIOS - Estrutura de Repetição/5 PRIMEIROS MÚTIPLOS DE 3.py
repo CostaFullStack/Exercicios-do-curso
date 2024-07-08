@@ -9,11 +9,10 @@ for i in range(1,16):
 
 # com while
 multiplo = 0
-limite = 15
 
 print(f"Os primeiros múltiplos de 3, considerando números maiores que 0 são:")
 
-while multiplo < limite:
+while multiplo < 15:
         multiplo += 3
         print(multiplo)
 

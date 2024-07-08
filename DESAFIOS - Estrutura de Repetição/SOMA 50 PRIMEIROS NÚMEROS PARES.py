@@ -11,12 +11,12 @@ print(f"A soma dos 50 primeiros números pares é de: {soma}")
 
 # com while
 soma = 0
-par = 0
 contador = 0
 
 while contador < 100:
-        contador += 2
-        soma += contador
+        contador += 1
+        if contador % 2 == 0:
+                soma += contador
 
 print(f"A soma dos 50 primeiros números pares é de: {soma}")
 
