@@ -5,7 +5,7 @@ numero_dois = float(input("Digite o segundo número: "))
 numero_tres = float(input("Digite o terceiro número: "))
 
 if numero_um > numero_dois and numero_um > numero_tres:
-    print(f"O maior número é o: {numero_um}")
+    print(f"O maior número digitado foi o: {numero_um}")
 
 elif numero_dois > numero_um and numero_dois > numero_tres:
     print(f"O maior número digitado foi o: {numero_dois}")
@@ -41,5 +41,5 @@ elif numero_dois < numero_tres and numero_dois < numero_um:
 elif numero_tres < numero_dois and numero_tres < numero_um:
     menor = numero_tres
 
-print(f'Maior número: {maior}')
-print(f'Menor número: {menor}')
+print(f'O maior número digitado foi o: {maior}')
+print(f'O menor número digitado foi o: {menor}')
