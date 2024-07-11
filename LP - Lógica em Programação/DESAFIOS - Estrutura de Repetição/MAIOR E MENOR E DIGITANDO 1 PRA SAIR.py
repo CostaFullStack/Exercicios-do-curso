@@ -46,8 +46,10 @@ while True:
             menor = numero
 
 if numero_positivo:
-    print(f"O maior número digitado foi: {maior}")
-    print(f"O menor número digitado foi: {menor}")
+    print(f"""
+Maior número digitado: {maior}
+Menor número digitado: {menor}
+""")
 
 
     

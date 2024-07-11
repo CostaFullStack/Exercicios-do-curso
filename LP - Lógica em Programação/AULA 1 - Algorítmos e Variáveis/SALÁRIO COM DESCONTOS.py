@@ -28,8 +28,9 @@ desconto_sindicato = salario_bruto * 0.05
 
 salario_liquido = salario_bruto - (desconto_renda + desconto_inss + desconto_sindicato)
 
-print(f"Salário bruto: R${salario_bruto}")
-print(f"IR (11%): R${desconto_renda}")
-print(f"INSS (8%): R${desconto_inss}")
-print(f"Sindicato (5%): R${desconto_sindicato}")
-print(f"Salário Líquido: R${salario_liquido}")
+print(f"""
+Salário bruto: R${salario_bruto}
+INSS (8%): R${desconto_inss}
+Sindicato (5%): R${desconto_sindicato}
+Salário Líquido: R${salario_liquido}
+""")
