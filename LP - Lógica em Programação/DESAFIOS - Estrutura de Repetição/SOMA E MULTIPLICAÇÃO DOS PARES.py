@@ -29,6 +29,7 @@ numero_dois = int(input("Digite o 2º número: "))
 while numero_um <= numero_dois:
     if numero_um % 2 == 0:
         soma += numero_um
+        
     else:
         mult *= numero_um
     numero_um += 1

@@ -1,4 +1,4 @@
-# Faça um programa que peça a idade, a altura, o cpf e o nome do usuário e imprima na tela a mensagem:
+# Faça um programa que peça a idade, a altura, o cpf e o nome do usuário e imprima na tela a mensagem
 # Bem-vindo (usuário), seus dados foram cadastrados com sucesso. Idade = ‘’, altura = ‘’, cpf = ‘’.
 
 idade = int(input("Digite sua idade: "))

@@ -22,6 +22,7 @@ valor_final = int(input("Digite o valor final do intervalo: "))
 
 if valor_inicial > valor_final:
     print("Intervalo de valores inválido.")
+    
 else:
     while valor_inicial <= valor_final:
         if valor_inicial % 2 != 0:

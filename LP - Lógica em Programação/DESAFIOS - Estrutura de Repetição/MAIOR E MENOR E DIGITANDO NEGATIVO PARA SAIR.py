@@ -17,7 +17,7 @@ for _ in range(10000000000):
         numero_positivo = True
         if numero > maior:
             maior = numero
-        elif numero < menor:
+        if numero < menor:
             menor = numero
 if numero_positivo:
     print(f"O maior número digitado foi: {maior}")
@@ -35,6 +35,7 @@ while True:
     if numero < 0:
         if numero_positivo:
             break
+        
         else:
             print("Nenhum número positivo foi digitado!")
             break
@@ -42,7 +43,8 @@ while True:
         numero_positivo = True
         if numero > maior:
             maior = numero
-        elif numero < menor:
+
+        if numero < menor:
             menor = numero
 
 if numero_positivo:

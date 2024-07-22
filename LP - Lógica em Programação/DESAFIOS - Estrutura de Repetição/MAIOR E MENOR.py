@@ -8,11 +8,14 @@ for i in range(1,11):
     numero = float(input(f"Digite o {i}º número: "))
     if numero > maior:
         maior = numero
-    elif numero < menor:
+
+    if numero < menor:
         menor = numero
 
-print(f"O maior número digitado foi: {maior}")
-print(f"O menor número digitado foi: {menor}")
+print(f"""
+Maior número: {maior}
+Menor número: {menor}
+""")
 
 # com while
 vezes = 0
@@ -24,8 +27,11 @@ while vezes < 10:
     vezes += 1
     if numero > maior:
         maior = numero
-    elif numero < menor:
+
+    if numero < menor:
         menor = numero     
   
-print(f"O maior número digitado foi: {maior}")
-print(f"O menor número digitado foi: {menor}")
+print(f"""
+Maior número: {maior}
+Menor número: {menor}
+""")
