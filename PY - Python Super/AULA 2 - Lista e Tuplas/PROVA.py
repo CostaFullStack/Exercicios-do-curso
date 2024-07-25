@@ -19,18 +19,26 @@ for i in range(1,11):
         contagem_impar += 1
 
 # Números pares e ímpares em uma lista.
-print(f"Números pares: {par}")
-print(f"Números ímpares: {impar}")
+print(f"""
+Números pares: {par}
+Números ímpares: {impar}
+""")
 
 # Números pares e ímpares em uma tupla.
-print(f"Números pares: {tuple(par)}")
-print(f"Números pares: {tuple(impar)}")
+print(f"""
+Números pares na tupla: {tuple(par)}
+Números ímpares na tula: {tuple(impar)}
+""")
 
 # Quantidade de números pares e ímpares.
-print(f"Quantidade de pares: {contagem_par}")
-print(f"Quantidade de ímpares: {contagem_impar}")
+print(f"""
+Quantidade de pares: {contagem_par}
+Quantidade de ímpares: {contagem_impar}
+""")
 
 # Soma total, dos pares e ímpares. 
-print(f"Soma total dos números: {sum(lista)}")
-print(f"Soma dos pares: {sum(par)}")
-print(f"Soma dos ímpares: {sum(impar)}")
+print(f"""  
+Soma total dos números: {sum(lista)}
+Soma dos pares: {sum(par)}
+Soma dos ímpares: {sum(impar)}
+""")

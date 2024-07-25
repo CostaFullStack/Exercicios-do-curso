@@ -51,7 +51,7 @@ while True:
                 break
 
             case _:
-                print("Opção inválida. Por favor, selecione uma opção válida!")
+                print("Número inválido. Por favor, selecione números entre 0 e 4!")
 
     except:
         print("Digite apenas números!")
